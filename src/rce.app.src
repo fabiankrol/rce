@@ -1,0 +1,15 @@
+{application, rce,
+    [
+        {description, ""},
+        {vsn, "1"},
+        {registered, []},
+        {applications, [
+                kernel,
+                stdlib,
+                riak_core
+            ]},
+        {mod, { rce_app, []}},
+        {env, []}
+    ]}.
+
+%% vim: filetype=erlang
